@@ -264,16 +264,16 @@ def choise_operation(matrix_a, choice):
 
 def menu():
     print("Введите резмерность матрицы, строки: ")
-    n = input()
+    n = 1
     print("Столбцы: ")
-    m = input()
-    matrix_a = size_mtr(n, m)
+    m = 1
+    matrix_a = Matrix(n, m,[1])
 
     while ch:
         print("1. Умножить матрицу на число\n2. Транспонировать матрицу \n3. Найти определитель матрицы \n\
       4. Умножить на новую матрицу \n5. Сложить с новой матрицей\n6. Вычесть новую матрицу\n7. Сохранить текущую матрицу в буфер \n\
       8. Вывести содержимое буфера \n9. Ввести матрицу еще раз  \n0. Выход")
-        choice = input()
+        choice = "0"
         matrix_a = choise_operation(matrix_a, choice)
 
 
