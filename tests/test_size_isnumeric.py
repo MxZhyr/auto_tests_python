@@ -1,7 +1,7 @@
 import pytest
 
 
-import main
+from main import main.py
 
 # значения вводятся в " " по причине возвращение функцией input() исключительно строк
 @pytest.mark.parametrize("n, m", [("2", "Ф"),
