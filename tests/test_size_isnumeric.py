@@ -1,6 +1,6 @@
 import pytest
 
-import main
+import main.py
 
 
 # значения вводятся в " " по причине возвращение функцией input() исключительно строк
